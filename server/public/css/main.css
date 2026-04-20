@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+}
+
+.custom-navbar {
+  background-color: #1f2937;
+}
+
+.page-title {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  white-space: nowrap;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.form-control,
+.form-select,
+textarea {
+  border-radius: 8px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.pagination .page-link {
+  color: #1f2937;
+  border-radius: 6px;
+  margin: 0 2px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #1f2937;
+  border-color: #1f2937;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.7em;
+}
