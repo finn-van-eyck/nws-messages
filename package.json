@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "nodemon --ext ts --exec ts-node ./server/app.ts"
+    "dev": "nodemon --ext ts --exec ts-node ./server/app.ts"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/finn-van-eyck/nws-messages#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "postgres": "^3.4.9"
   },
   "devDependencies": {
+    "@types/ejs": "^3.1.5",
     "@types/express": "^5.0.6",
+    "@types/express-ejs-layouts": "^2.5.4",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
